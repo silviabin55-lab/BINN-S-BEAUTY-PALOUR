@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 600px;
+    width: auto;
+    color: #333;
+    line-height: 1.6;
+}
+.reviews{
+    background-color: white;
+    height: 110vh;
+}
+.review-head{
+    color: #d63384;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    width: 130px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    background-color:rgb(244, 209, 215);
+}
+.review-text h2{
+    font-weight: bold;
+    font-size: 40px;
+    /* margin-bottom: 5px; */
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.review-1{
+    border-radius:100%;
+    width: 100px;
+    height: 100px;
+    border: #d63384 solid;
+    position: absolute;
+    top: 10px;
+    left: 22px;
+}
+.review-pic1{
+    background-color:rgb(250, 228, 231) ;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 110px;
+    left: 22px;
+    border-radius: 25px;
+}
+.review-pic1 h2{
+    position: relative;
+    top: 30px;
+    left: 45px;
+    font-size: 30px;
+}
+.review-pic1 p{
+    color: #555;
+    position: relative;
+    top: 90px;
+    left: 23px;
+    font-size: 18px;
+}
+.review-pic2{
+    background-color: rgb(250, 228, 231);
+    height: 250px;
+    width: 350px;
+    border-radius:25px ;
+    position: relative;
+    left: 450px;
+    /* top: 5px; */
+    bottom: 137px;
+
+}
+.review-2{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: #d63384 solid;
+    position: absolute;
+    top: 10px;
+    left:22px;
+}
+.review-pic2 h2{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 30px;
+}
+.review-pic2 p{
+    color: #555;
+    position: relative;
+    top: 100px;
+    left: 23px;
+    font-size: 20px;
+}
+.review-pic3{
+    background-color: rgb(250, 228, 231);
+    height: 250px;
+    width: 350px;
+    border-radius:25px ;
+    position: relative;
+    left: 880px;
+    bottom: 385px;
+
+}
+.review-3{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: #d63384 solid;
+    position: absolute;
+    top: 10px;
+    left:22px;
+}
+.review-pic3 h2{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 30px;
+}
+.review-pic3 p{
+    color: #555;
+    position: relative;
+    top: 100px;
+    left: 23px;
+    font-size: 20px;
+}

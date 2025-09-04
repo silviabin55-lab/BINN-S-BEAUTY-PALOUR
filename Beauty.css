@@ -183,12 +183,22 @@ section{
     nav{
         flex-direction: column;
         gap: 14px;
+        text-align: center;
     }
     .nav-links{
         flex-direction: column;
         gap: 14px;
     }
 }
+@media (max-width: 480px){
+    h1{
+        font-size: 1.4rem;
+    }
+    .btn{
+        padding: o.6rem 1rem;
+    }
+}
+
 
 
 
